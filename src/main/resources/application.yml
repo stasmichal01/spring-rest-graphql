@@ -1,0 +1,15 @@
+graphql:
+  servlet:
+    mapping: /graphql
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+
+voyager:
+  mapping: /voyager
+
+server:
+  port: 8080
